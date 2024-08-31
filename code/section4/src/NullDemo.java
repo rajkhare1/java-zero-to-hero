@@ -4,6 +4,7 @@ public class NullDemo {
         String myString = null;
         Employee employeeObject = null;
         int age = employeeObject.getAge();
+        System.gc();
     }
 
 }

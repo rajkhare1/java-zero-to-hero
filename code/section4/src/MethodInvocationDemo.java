@@ -26,6 +26,7 @@ public class MethodInvocationDemo {
     }
 
     public void method4(int num) {
+        Thread.dumpStack();
         MethodInvocationDemo demoObj = new MethodInvocationDemo();
         System.out.println(num);
         System.out.println("Method 4");
