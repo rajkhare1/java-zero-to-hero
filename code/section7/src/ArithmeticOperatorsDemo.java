@@ -20,6 +20,20 @@ public class ArithmeticOperatorsDemo {
 
         int result3 = 21%2;
 
+        byte num7 = 9;
+        byte num8 = 3;
+        num7 = num8;
+        num7 = (byte) +num8;
+
+        byte num9 = 9;
+        byte num10 = 3;
+        num9 = num10;
+        num9 = (byte) -num10;
+
+        byte num11 = -(-9);
+
+
+
     }
 
 }
