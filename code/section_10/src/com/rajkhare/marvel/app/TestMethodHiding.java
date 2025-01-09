@@ -1,6 +1,7 @@
-package com.rajkhare.marvel.vehicle;
+package com.rajkhare.marvel.app;
 
 import com.rajkhare.marvel.base.Vehicle;
+import com.rajkhare.marvel.vehicle.Car;
 
 public class TestMethodHiding {
 
