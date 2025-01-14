@@ -1,6 +1,8 @@
 package com.rajkhare.marvel.hero;
 
-public interface SuperHero {
+import com.rajkhare.marvel.hero.impl.Person;
+
+public interface SuperHero extends Person {
 
     String userPower();
 
