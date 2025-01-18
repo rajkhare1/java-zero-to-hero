@@ -5,6 +5,7 @@ import com.rajkhare.marvel.hero.SuperHero;
 public class IronMan implements SuperHero {
     @Override
     public String userPower() {
+        System.out.println("from IronMan : "+UNIVERSE_NAME);
         return "IronMan is using his power";
     }
 

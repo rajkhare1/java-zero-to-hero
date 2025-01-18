@@ -22,4 +22,15 @@ public class SpiderMan implements SuperHero {
         else
         return "SpiderMan stopped the Villain";
     }
+
+    @Override
+    public String trackLiveLocation() {
+        String liveLocation = "London";
+        System.out.println("I am in "+liveLocation);
+        return liveLocation;
+    }
+
+    public static String commonCharacteristics() {
+        return "Superhuman abilities, Willingness to sacrifice";
+    }
 }
