@@ -1,7 +1,5 @@
 package com.rajkhare.marvel.hero;
 
-import com.rajkhare.marvel.hero.impl.Person;
-
 public interface SuperHero extends Hero , Person{
 
     String UNIVERSE_NAME = "Marvel";
