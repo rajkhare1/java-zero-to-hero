@@ -1,4 +1,4 @@
-package com.rajkhare.marvel.hero.impl;
+package com.rajkhare.marvel.hero;
 
 public interface Person {
 
