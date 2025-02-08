@@ -16,8 +16,8 @@ public class MultipleCatchDemo {
             logger.info(input);
         } catch (NullPointerException ex) {
             logger.severe("An null pointer exception occurred. Please check your data");
-        } catch (StringIndexOutOfBoundsException ex) {
-            logger.severe("StringIndexOutOfBoundsException occurred. Please check your String data");
+        } catch (StringIndexOutOfBoundsException | ArrayIndexOutOfBoundsException ex) {
+            logger.severe("IndexOutOfBoundsException occurred. Please check your input data");
         } catch (Exception ex) {
             logger.severe("An exception occurred. Please check your program");
         }
