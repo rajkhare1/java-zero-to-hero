@@ -2,9 +2,9 @@ package com.rajkhare.object.demo;
 
 import java.util.logging.Logger;
 
-public class ShallowCloneExample {
+public class CloneExample {
 
-    private static Logger logger = Logger.getLogger(ShallowCloneExample.class.getName());
+    private static Logger logger = Logger.getLogger(CloneExample.class.getName());
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Course course = new Course();

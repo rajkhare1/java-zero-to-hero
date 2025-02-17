@@ -28,6 +28,8 @@ public class Student implements Cloneable{
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        Student clonedStudent = (Student) super.clone();
+        clonedStudent.course = (Course) course.clone();
+        return clonedStudent;
     }
 }

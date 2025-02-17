@@ -1,6 +1,6 @@
 package com.rajkhare.object.demo;
 
-public class Course {
+public class Course implements Cloneable {
 
     private String courseName;
 
@@ -10,5 +10,10 @@ public class Course {
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
