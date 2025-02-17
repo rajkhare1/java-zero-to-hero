@@ -12,6 +12,8 @@ public class HashCodeEqualsDemo {
         logger.info(""+p1.hashCode());
         logger.info(""+p2.hashCode());
         logger.info(""+p1.equals(p2));
+        logger.info(""+ p1);
+        logger.info(""+p2);
     }
 
 }
