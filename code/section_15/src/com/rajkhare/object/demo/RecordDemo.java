@@ -1,5 +1,6 @@
 package com.rajkhare.object.demo;
 
+import java.lang.reflect.RecordComponent;
 import java.util.logging.Logger;
 
 public class RecordDemo {
@@ -11,6 +12,14 @@ public class RecordDemo {
         logger.info(personRecord.name());
         logger.info(personRecord.occupation());
         logger.info(""+personRecord);
+
+        Class personRecordClass = personRecord.getClass();
+        logger.info(""+personRecordClass.isRecord());
+
+        RecordComponent[] recordComponents = personRecordClass.getRecordComponents();
+        for (RecordComponent r : recordComponents) {
+            logger.info(r.toString());
+        }
 
     }
 

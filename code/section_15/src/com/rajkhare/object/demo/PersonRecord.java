@@ -10,4 +10,13 @@ package com.rajkhare.object.demo;
  * @param occupation
  */
 public record PersonRecord(String name, String occupation) {
+
+    public static  String country = "USA";
+
+    public PersonRecord {
+        if (name == null || occupation == null) {
+            throw new IllegalArgumentException();
+        }
+    }
+
 }
