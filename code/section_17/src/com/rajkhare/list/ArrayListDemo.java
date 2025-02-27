@@ -27,7 +27,9 @@ public class ArrayListDemo {
         String firstElement = countryNames.getFirst();
         String lastElement = countryNames.getLast();
         String randomElement = countryNames.get(2);
+        List<String> reversedCountryNames = countryNames.reversed();
         logger.info(String.valueOf(countryNames));
+        logger.info(String.valueOf(reversedCountryNames));
     }
 
 }
