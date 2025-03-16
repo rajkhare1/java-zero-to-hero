@@ -36,6 +36,11 @@ public class CovarianceDemo {
         Object[] objectArray = numArray;// covariance
         objectArray[0] = "String";// dumbo compiler :) [will generate ArrayStoreException]
 
+        List<Employee> employeeList = List.of(new Employee(), new Employee());
+        printList(employeeList);
+
+        List<Developer> developerList = List.of(new Developer(), new Developer());
+//        printList(developerList);// compilation error bcz covariance is not supported in collection
 
 
     }
@@ -46,4 +51,11 @@ public class CovarianceDemo {
         }
     }
 
+    public static void printList(List<Employee> employees) {
+        for (Employee employee : employees) {
+            logger.info(String.valueOf(employee));
+        }
+    }
 }
+
+
