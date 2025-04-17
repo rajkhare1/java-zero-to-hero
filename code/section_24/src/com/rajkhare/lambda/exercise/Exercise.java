@@ -1,4 +1,4 @@
-package com.rajkhare.lambda;
+package com.rajkhare.lambda.exercise;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.rajkhare.lambda;
+package com.rajkhare.lambda.exercise;
 
 @FunctionalInterface
 public interface StringTransformer {
