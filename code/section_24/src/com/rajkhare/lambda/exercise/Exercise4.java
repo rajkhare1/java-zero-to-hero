@@ -18,8 +18,7 @@ public class Exercise4 {
         // Apply the lambda expression to each integer in the list
         List<Integer> incrementedNumList = filter(numbers, incrementedValue);
 
-        List<Integer> incrementedNumList1 = incrementedNumList;
-        return incrementedNumList1;
+        return incrementedNumList;
     }
 
     public static List<Integer> filter(List<Integer> numbers, UnaryOperator<Integer> incrementedValue){
