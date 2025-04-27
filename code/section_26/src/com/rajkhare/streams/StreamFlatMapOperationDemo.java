@@ -11,7 +11,7 @@ public class StreamFlatMapOperationDemo {
         String[] arrayOfWords = {"Raj", "Khare"};
         Stream<String> streamOfWords = Arrays.stream(arrayOfWords);
         Stream<String[]> streamOfLetters = streamOfWords.map(word -> word.split(""));
-//        streamOfLetters.forEach(System.out::println);// Problem: [Ljava.lang.String;@32e6e9c3
+        // streamOfLetters.forEach(System.out::println);// Problem: [Ljava.lang.String;@32e6e9c3
         streamOfLetters
                 .flatMap(Arrays::stream)
                 .forEach(System.out::println);
