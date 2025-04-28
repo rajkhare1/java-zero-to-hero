@@ -9,6 +9,8 @@ public class StreamSkipOperationDemo {
                 .skip(5)
                 .limit(5)
                 .forEach(System.out::println);
+
+
     }
 
 }
