@@ -13,6 +13,16 @@ public class ThreadDemo {
         Thread thread2 = new Thread(runnable);
         thread2.start();
 
+        // 3 ways to creating threads
+        HelloThread thread3 = new HelloThread();// Approach 1: By extending Thread class
+        thread3.start();
+
+        Thread thread4 = new Thread(new HelloThread1());// Approach 2: By implementing Runnable interface
+        thread4.start();
+
+        Thread thread5 = new Thread(Hello::sayHello);// Approach 3: By Method Reference
+        thread5.start();
+
         System.out.println("Hello from Main Thread");
 
     }
