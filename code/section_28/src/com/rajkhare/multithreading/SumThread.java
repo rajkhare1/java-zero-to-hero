@@ -4,7 +4,7 @@ public class SumThread extends Thread {
 
     private int startIndex;
     private int endIndex;
-    private long     result;
+    private long result;
 
     public SumThread(int startIndex, int endIndex) {
         this.startIndex = startIndex;
