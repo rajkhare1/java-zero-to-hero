@@ -28,3 +28,11 @@ public class ThreadDemo {
     }
 
 }
+/*
+Hello from Java Thread
+Hi from Java Thread
+Hello from HelloThread class which extends Thread
+Hello from HelloThread1 class which implements Runnable
+Hello from Main Thread
+Hello from Method Reference approach
+*/
