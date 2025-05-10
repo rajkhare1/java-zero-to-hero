@@ -13,9 +13,9 @@ public class SumOfIntsThreadDemo {
         thread1.join();
         thread2.join();
         result = thread1.getResult() + thread2.getResult();
-        System.out.println(result);
+        System.out.println(result);// 2305843008139952128
         long endTime = System.currentTimeMillis();
-        System.out.println("Total time taken by multiple thread Java class is : "+ (endTime - startTime));
+        System.out.println("Total time taken by multiple thread Java class is : "+ (endTime - startTime));// Total time taken by multiple thread Java class is : 581
     }
 
 }

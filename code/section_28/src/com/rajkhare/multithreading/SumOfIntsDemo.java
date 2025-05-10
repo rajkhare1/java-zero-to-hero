@@ -8,9 +8,9 @@ public class SumOfIntsDemo {
         for (long i=0;i<=Integer.MAX_VALUE;i++) {
             result = result + i;
         }
-        System.out.println(result);
+        System.out.println(result);// 2305843008139952128
         long endTime = System.currentTimeMillis();
-        System.out.println("Total Time taken by normal Java class is: "+(endTime - startTime));
+        System.out.println("Total Time taken by normal Java class is: "+(endTime - startTime));// Total Time taken by normal Java class is: 687
     }
 
 }
