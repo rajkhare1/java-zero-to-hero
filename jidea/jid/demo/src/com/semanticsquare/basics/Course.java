@@ -4,6 +4,18 @@ public class Course {
     private int id;
     private String name;
 
+    private Department department;
+
+    public Course(int id, String name, String departmentName) {
+        super();
+        this.id = id;
+        this.setName(name);
+
+        if (departmentName != null) {
+            this.department = new Department(departmentName);
+        }
+    }
+
     public int getId() {
         return id;
     }
@@ -20,8 +32,8 @@ public class Course {
         this.name = name;
     }
 
-    public Course(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public Department getDepartment() {
+        return department;
     }
+
 }

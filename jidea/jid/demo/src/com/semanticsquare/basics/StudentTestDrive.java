@@ -1,6 +1,6 @@
 package com.semanticsquare.basics;
 
-class StudentTest {
+class StudentTestDrive {
 
 	public static final int STUDENT_COUNT = 3;
 
