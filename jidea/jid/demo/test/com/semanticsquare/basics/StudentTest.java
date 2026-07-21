@@ -31,7 +31,7 @@ class StudentTest {
 
         Course course4 = new Course(4, "Operating Systems", "CS");
         student.enroll(course4);
-        assertTrue(student.getEnrolledCourses().size() <= Student.COURSE_ENROLL_LIMIT,
+         assertTrue(student.getEnrolledCourses().size() <= Student.COURSE_ENROLL_LIMIT,
                 "Enrollment limit exceeded. Should never happen. Debug!!");
     }
 }

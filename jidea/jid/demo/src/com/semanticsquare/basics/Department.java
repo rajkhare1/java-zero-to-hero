@@ -3,8 +3,8 @@ package com.semanticsquare.basics;
 public class Department {
     private String name;
 
-	public Department(String departmentName) {
-		this.name = departmentName;
+	public Department(String name) {
+		this.name = name;
 	}
 
 	public String getName() {

@@ -11,9 +11,9 @@ public class Course {
         this.id = id;
         this.setName(name);
 
-        if (departmentName != null) {
+        /*if (departmentName != null) {
             this.department = new Department(departmentName);
-        }
+        }*/
     }
 
     public int getId() {
